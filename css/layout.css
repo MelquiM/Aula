@@ -78,7 +78,14 @@ footer{
     bottom: 0;
     width: 97.9%;
 }
-
+.imagens{
+    border: black 1 px solid;
+    box-shadow: #646664 3px 2xp;
+}
+.imagens img {
+    width: 200px;
+    margin: auto;
+}
 .destaque{
     background-color: aliceblue;
     padding: 20px;
