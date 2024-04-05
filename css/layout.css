@@ -58,16 +58,6 @@ body{
     clear:both;
     content: "";
 }
-.esquerda{
-    width: 75%;
-    float: left;
-}
-
-.direita{
-    width: 25%;
-    float: right;
-    
-}
 
 footer{
     padding: 20px;

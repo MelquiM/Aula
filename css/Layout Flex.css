@@ -1,3 +1,5 @@
+*{box-sizing: border-box;}
+
 body{
     background-color:white;
     font-family: Arial, Helvetica, sans-serif;
@@ -21,6 +23,25 @@ body{
     overflow: hidden;
     
 }
+.container{
+    display: flex;
+    margin: 40px;    
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+    width: 100%;
+    margin: 40 px;
+}
+.noticias{
+    background-color: aliceblue;
+    text-align: justify;
+    border-radius: 20px;
+}
+
+.noticias img{
+    width: 25%;
+    height: 20%;
+}
 .menuTopo ul {
     display:inline-block;
     list-style: none;
@@ -31,14 +52,6 @@ body{
 .menuTopo ul li{
     float: left;
     
-}
-.container{
-    display: flex;
-    flex-direction: column;
-    width: 60%;
-    padding: 20px;
-    background-color: aliceblue;
-    margin: 40px;
 }
 
 .menuTopo a {
