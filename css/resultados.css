@@ -1,0 +1,78 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+h2 {
+    text-align: center;
+}
+
+#pontuacao-geral {
+    width: 90%;
+    border: 2px solid rgb(57, 190, 85);
+    border-radius: 5px;
+    margin: 50px;
+    table-layout: fixed;
+}
+
+#pontuacao-geral > * > * > th {
+    font-size: 12px;
+}
+
+#pontuacao-geral > thead tr:first-child th {
+    font-size: 16px;
+    background-color: rgb(27, 110, 45);
+}
+
+#pontuacao-geral > tbody > tr:nth-child(8)>th {
+    background-color: rgba(10, 36, 168, 0.881);
+}
+
+#pontuacao-geral > tbody > tr:nth-child(13) > th {
+    background-color: rgba(168, 99, 10, 0.881);
+}
+
+#pontuacao-geral > tbody > tr:last-child > th {
+    background-color: rgb(172, 1, 1);
+}
+
+#pontuacao-geral th, td {
+    text-align: center;
+    padding: 8px;
+    border: 1px solid #ddd;
+    margin: 2px;
+    background-color: #069e2d;
+    color: white;
+    width: auto;
+}
+
+#campeoes {
+    margin: 20px;
+    width: 30%;
+    border-collapse: collapse;
+}
+
+#campeoes > thead > tr > th {
+    padding: 8px;
+}
+
+#campeoes > tbody > tr > th {
+    text-align: center;
+    padding: 8px;
+    border: 1px solid #ddd;
+    background-color: #069e2d;
+    color: white;
+}
+
+#campeoes > tbody > tr:nth-child(1) > th {
+    background-color: rgb(172, 1, 1);
+}
+
+#campeoes > tbody > tr:nth-child(2)>th {
+    background-color: rgba(168, 99, 10, 0.881);
+}
+
+#campeoes > tbody > tr:nth-child(3)>th {
+    background-color: rgba(10, 36, 168, 0.881);
+}
